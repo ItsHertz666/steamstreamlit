@@ -129,7 +129,7 @@ elif option == "Area Chart - Total Waktu Bermain":
     st.altair_chart(area, use_container_width=True)
 
 # ---- MAP ----
-elif option == "Map - Negara Asal Studio (Opsional)":
+elif option == "Map - Negara Asal Studio":
     st.subheader("Peta: Negara Asal Pengembang Game")
 
     # Coordinates example (dummy)
